@@ -2,7 +2,7 @@
 // focusable markers.
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom:6,
+      zoom:4,
       center: { lat: 28.7041, lng: 77.1025},
       mapTypeId: "terrain",
     });
